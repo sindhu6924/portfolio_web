@@ -1,0 +1,106 @@
+.custom-header{
+    display:flex;
+    flex:1;
+    flex-direction: row;
+    
+    justify-content: space-between;
+}
+.logo{
+    flex-direction: 1;
+     margin:0px;
+    height: 60px;
+    width: 230px;
+}
+body{
+    background-color: black;
+}
+.all{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.all-content{
+    color:white;
+    display: flex;
+    align-items: center;
+    
+}
+.body1{
+    height: 88vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+    
+    border-width: 5px;
+    border-style:solid ;
+}
+.name{
+    color: white;
+    margin-left: 20px;
+    padding: 10px;
+    width:  50%;
+    text-align: center;
+    
+
+}
+.details{
+    text-align: end;
+}
+.profile_pic {
+  
+  margin-left: 18px;
+   height: 50%;
+   border-radius: 70px;
+
+}
+.services{
+    display: flex;
+    flex-direction: column;
+    
+}
+.services-avail{
+    display: flex;
+    flex-direction: row;
+
+}
+.header{
+    font-style: italic;
+    color:white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.web,.video,.photo{
+    flex: 1;
+    border-color: whitesmoke;
+    border-width: 2px;
+    border-style: solid;
+    margin-left: 10px;
+
+}
+.web-head,.video-head,.photo-head{
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    color:white;
+}
+.web-p,.video-p,.photo-p{
+    padding: 10px;
+    color:whitesmoke;
+}
+.utube,.insta,.linked{
+    height: 50px;
+    width: 50px;
+}
+.detailed{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    line-height: 9px;
+
+}
